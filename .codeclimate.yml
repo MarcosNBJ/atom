@@ -1,4 +1,6 @@
 plugins: 
   eslint:
     enabled: true
-    config: .eslintrc
+    channel: "eslint-7"
+    config:
+      config: .eslintrc
