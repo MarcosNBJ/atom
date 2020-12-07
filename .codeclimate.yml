@@ -2,3 +2,8 @@ plugins:
   eslint:
     enabled: true
     channel: "eslint-7"
+    checks:
+      complexity:
+        enabled: true
+      max-params:
+        enabled: true
