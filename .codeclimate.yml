@@ -7,3 +7,5 @@ plugins:
         enabled: true
       max-params:
         enabled: true
+      prettier/prettier:
+        enabled: false
