@@ -7,5 +7,10 @@ plugins:
         enabled: true
       max-params:
         enabled: true
-      prettier/prettier:
-        enabled: false
+
+
+exclude_patterns:
+- "tests/"
+- "spec/"
+- "src/deprecated-syntax-selectors.js"
+- "src/package.js"
